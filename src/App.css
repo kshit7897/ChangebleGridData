@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.table {
+  height: 400px;
+  width: 95%;
+  margin: 0 auto;
+
+}
+
+.MuiDataGrid-footerContainer{
+  min-height: 28px !important;
+}
+

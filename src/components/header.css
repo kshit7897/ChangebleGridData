@@ -1,0 +1,31 @@
+.head-bg{
+    background-color: rgba(44, 44, 238, 0.295);
+        margin-bottom: 5px;
+    }
+    
+    .main-div{
+        width: 95%;
+        display: flex;
+        justify-content: end; 
+    }
+    
+    .search-bar{
+        font-size: 13px;
+        border-radius: 4px;
+        line-height: 1.5;
+        padding: 5px 10px;
+        outline: none;
+        transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+        border: 2px solid #dee1e2;
+        color: rgb(14, 14, 16);
+        display: block;
+        height: 15px;
+    }
+    :hover {
+        border-color: #ccc;
+    }
+    :focus{
+        border-color: #9147ff;
+        background: #fff;
+    }
+    
